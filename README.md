@@ -12,3 +12,25 @@ Speaks the recognized text aloud
 Performs a web search based on user queries
 
 Displays the search results
+
+Required Python libraries:
+
+speech_recognition
+
+gtts
+
+webbrowser
+
+googlesearch-python
+
+How It Works:
+
+Captures voice input using speech_recognition.
+
+Converts speech to text and displays it.
+
+Uses gtts to read the recognized text aloud.
+
+Searches the web using googlesearch-python.
+
+Displays relevant results.
